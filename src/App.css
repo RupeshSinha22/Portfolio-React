@@ -717,3 +717,327 @@ footer{
     gap:1rem;
     transform: translateX(-10%);
 }
+
+/* Add these modifications to your existing media queries */
+@media (max-width: 1279px) {
+    .project-card {
+      height: 300px !important;
+    }
+    
+    .project-content {
+      width: 100% !important;
+      padding: 1em !important;
+      transform: scale(0.8) !important;
+    }
+  
+    .project-heading {
+      font-size: 1.5rem !important;
+      line-height: 1.8rem !important;
+      width: 100% !important;
+    }
+  
+    .project-subheading {
+      width: 100% !important;
+      font-size: 0.8rem !important;
+      line-height: 1.2rem !important;
+    }
+  
+    .project-skills-container {
+      width: 100% !important;
+      gap: 5px !important;
+    }
+  
+    .project-skill {
+      width: 30px !important;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .project-card {
+      height: 250px !important;
+      margin: 0 auto !important;
+    }
+  
+    .project-content {
+      transform: scale(0.7) !important;
+      top: 5% !important;
+    }
+  
+    .project-number {
+      font-size: 100px !important;
+      top: -25px !important;
+    }
+  
+    .project-number-right {
+      right: -20px !important;
+    }
+  
+    .project-number-left {
+      left: -20px !important;
+    }
+  
+    .btn-grp {
+      gap: 0.5rem !important;
+    }
+  
+    .btn-project {
+      padding: 0.4rem 1rem !important;
+      font-size: 0.8rem !important;
+    }
+  
+    .icon {
+      font-size: 1.5rem !important;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .project-card {
+      height: 220px !important;
+    }
+  
+    .project-content {
+      transform: scale(0.6) !important;
+    }
+  
+    .project-heading {
+      font-size: 1.2rem !important;
+    }
+  
+    .project-subheading {
+      font-size: 0.7rem !important;
+    }
+  }
+
+  /* Mobile Responsive Styles */
+@media (max-width: 600px) {
+    .container {
+      width: 100% !important;
+      padding: 0 1rem;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      gap: 1rem;
+      padding-top: 1.5rem;
+    }
+  
+    .logo {
+      left: 0;
+      width: 60px;
+    }
+  
+    .logo-text {
+      font-size: 1.5rem;
+      margin-left: -1.5rem;
+    }
+  
+    .nav-items {
+      padding: 0;
+      gap: 1.5rem;
+      font-size: 16px;
+    }
+  
+    .hero-section {
+      flex-direction: column;
+      gap: 2rem;
+      margin: 2rem auto;
+      padding-bottom: 4rem;
+    }
+  
+    .hero-section-left {
+      align-items: center;
+      text-align: center;
+    }
+  
+    .hero-section-heading {
+      font-size: 1.5rem;
+    }
+  
+    .hero-section-sub-heading {
+      font-size: 1.8rem;
+      line-height: 2rem;
+    }
+  
+    .hero-section-description {
+      width: 100%;
+      font-size: 0.9rem;
+    }
+  
+    .faded-text {
+      font-size: 3.5rem;
+      bottom: -8%;
+    }
+  
+    .user-image img {
+      width: 12em;
+      height: 15em;
+    }
+  
+    .page-header {
+      font-size: 2.5rem !important;
+      padding-top: 1rem !important;
+    }
+  
+    .project-card {
+      height: 250px !important;
+    }
+  
+    .project-content {
+      padding: 1em !important;
+    }
+  
+    .project-heading {
+      font-size: 1.5rem !important;
+      line-height: 1.8rem !important;
+    }
+  
+    .project-subheading {
+      font-size: 0.8rem !important;
+      width: 100% !important;
+    }
+  
+    .skills-container {
+      flex-direction: column;
+      padding: 2rem !important;
+      margin: 5rem auto !important;
+    }
+  
+    .skill-container-left,
+    .skill-container-right {
+      width: 100% !important;
+    }
+  
+    .skill-heading {
+      font-size: 2rem !important;
+    }
+  
+    .caps {
+      font-size: 2.5rem !important;
+    }
+  
+    .skill-subHeading {
+      width: 100% !important;
+      font-size: 0.9rem;
+    }
+  
+    .skills-logo {
+      width: 50px;
+    }
+  
+    .contactus-heading {
+      font-size: 2.5rem !important;
+    }
+  
+    .contactus-sub-heading {
+      font-size: 1.5rem !important;
+    }
+  
+    .form {
+      width: 100% !important;
+      margin: 1rem !important;
+    }
+  
+    .formfield {
+      margin: 10px !important;
+      font-size: 16px !important;
+    }
+  
+    footer {
+      padding: 2rem !important;
+    }
+  
+    .footer-wrapper {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .icon-wrapper {
+      transform: none !important;
+      flex-wrap: wrap;
+    }
+  
+    .footer-faded-text {
+      font-size: 2rem !important;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .nav-items {
+      gap: 1rem;
+      font-size: 14px;
+    }
+  
+    .btn-pink {
+      padding: 0.6rem 1.5rem;
+      font-size: 16px;
+    }
+  
+    .user-image img {
+      width: 10em;
+      height: 13em;
+    }
+  
+    .project-card {
+      height: 200px !important;
+    }
+  }
+
+  /* Add these to your existing media queries */
+@media (max-width: 600px) {
+    .skills-container {
+      margin-bottom: 5rem !important;
+      padding: 2rem 1rem !important;
+    }
+  
+    .skill-fade-text {
+      font-size: 8em !important;
+      bottom: -15% !important;
+      right: 0 !important;
+    }
+  
+    .contactus-form-container {
+      margin-top: 5rem !important;
+    }
+  
+    .contactus-heading {
+      padding-top: 4rem !important;
+    }
+  
+    .blob-style {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .skill-fade-text {
+      font-size: 6em !important;
+      bottom: -10% !important;
+    }
+    
+    .skill-heading {
+      margin-bottom: 1.5rem !important;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .faded-text {
+      font-size: 3em !important;
+      bottom: -5% !important;
+      left: 5% !important;
+    }
+  
+    .hero-section {
+      padding-bottom: 4rem !important;
+    }
+  
+    .user-image img {
+      transform: scale(0.9);
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .faded-text {
+      font-size: 2em !important;
+      bottom: -3% !important;
+    }
+  }
